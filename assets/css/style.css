@@ -465,7 +465,7 @@ a.cta:hover:after {
         height: 0;
         width: 100%;
         text-align: center;
-        margin: 100px auto 50px auto;
+        margin: 60px auto 50px auto;
         opacity: 0;
         transition: all 0.2s ease;
   }
@@ -475,7 +475,7 @@ a.cta:hover:after {
           height: auto;
           width: 100%;
           text-align: center;
-          margin: 100px auto 50px auto;
+          margin: 60px auto 50px auto;
           opacity: 1;
           transition: all 0.3s ease;
     }
