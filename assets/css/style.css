@@ -2005,7 +2005,7 @@ section.testimonials {
 }
 
 .testimonials .controls {
-    margin-top: 50px;
+    margin-top: 20px;
     width: 50%;
     display: flex;
     justify-content: space-around;
@@ -2016,6 +2016,11 @@ section.testimonials {
     font-size: 70px;
     font-weight: 800;
     color: var(--blue-drk);
+    cursor: pointer;
+}
+
+.testimonials .controls span:hover {
+    color: var(--blue-md);
     cursor: pointer;
 }
 
@@ -2134,6 +2139,16 @@ section.testimonials {
         
     }
 
+    .testimonial-wrapper {
+        height: auto;
+    }
+
+    .testimonials .controls {
+        position: absolute;
+        justify-content: space-between;
+        top: 240px;
+    }
+
     
 }
 
@@ -2188,6 +2203,11 @@ section.testimonials {
 
     .testimonial-wrapper {
         height: auto;
+    }
+
+    .testimonials .controls {
+        width: 95%;
+        top: 165px;
     }
 }
 
