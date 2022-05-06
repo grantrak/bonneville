@@ -2580,3 +2580,368 @@ section.contact {
         margin-bottom: 20px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========================CITY===============================*/
+
+
+section.city-bg {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    z-index: -1;
+}
+
+section.slc-bg {
+    background-image: url("../img/slc.jpg"); 
+}
+section.seattle-bg {
+    background-image: url("../img/seattle.jpg"); 
+}
+section.phoenix-bg {
+    background-image: url("../img/phoenix.jpg"); 
+}
+section.denver-bg {
+    background-image: url("../img/denver.jpg"); 
+}
+section.sacramento-bg {
+    background-image: url("../img/sacramento.jpg");
+    background-position: center;
+}
+section.sf-bg {
+    background-image: url("../img/sf.jpg");
+    background-position: center;
+}
+
+section.city, section.brands {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.city-container {
+    width: 100%;
+    max-width: 1140px;
+    position: relative;
+    top: -300px;
+    margin-bottom: -300px;
+    z-index: 5;
+    background: var(--white);
+    box-shadow: var(--shadow);
+    padding: 80px;
+}
+
+.city-container h2 {
+    margin-bottom: 50px;
+}
+
+.city-content p {
+    margin-bottom: 20px;
+}
+
+.city-content {
+    grid-column: col-start / span 8;
+    border-right: 1px solid #b2b2b2;
+    padding-right: 35px;
+}
+
+.city-contact {
+    grid-column: col-start 9 / span 5;
+    padding-left: 15px;
+}
+
+.city-contact h3 {
+    margin-bottom: 10px;
+}
+
+.city-contact a.job-openings {
+    padding: 16px 47px;
+}
+
+.city-contact a.btn {
+    margin-top: 20px;
+}
+
+.city-contact a.job-openings:hover {
+    padding-left: 37px;
+    padding-right: 57px;
+  }
+
+  .logos-container {
+      width: 100%;
+      max-width: 1140px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .brands h2 {
+      margin-bottom: 30px;
+      margin-left: 40%;
+      margin-right: 40%;
+  }
+
+  .brand {
+      box-shadow: var(--shadow);
+      margin: 30px;
+  }
+
+  .brand img {
+      width: 250px;
+
+  }
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    .city-content {
+        grid-column: col-start / span 12;
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .city-contact {
+        grid-column: col-start / span 12;
+        padding-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .city-contact a.btn {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    section.city, section.brands {
+        padding: 50px 10%;
+    }
+
+    section.city-bg {
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        position: relative;
+        z-index: 1;
+    }
+
+    .city-container {
+        width: 100%;
+        top: 0;
+        margin-bottom: 0;
+        padding: 0;
+        box-shadow: none;
+        background: none;
+    }
+
+    .city-container h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+/*===============BLOG POST===================*/
+
+
+
+.hero-blog {
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/hero-blog.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.blog {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    padding-top: 50px;
+}
+
+.blog .container {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.post {
+    width: 450px;
+    height: 550px;
+    margin: 20px;
+    padding: 35px;
+    background: var(--white);
+    box-shadow: var(--shadow);
+}
+
+.blog-img {
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.blog-title {
+    margin-bottom: 15px;
+}
+
+.blog-excerpt {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 1200px) {
+    .post {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 992px){
+
+    .hero-blog {
+        height: 200px;
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    section.blog {
+        padding: 50px 1%;
+    }
+
+    .post {
+        width: 450px;
+        height: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .post {
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.post-section {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    padding-top: 50px;
+
+}
+
+.post-container {
+    width: 100%;
+    max-width: 1140px;
+    background: var(--white);
+    box-shadow: var(--shadow);
+    padding: 50px;
+}
+
+.post-container .post-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.post-container .post-title {
+    margin-top: 45px;
+}
+
+.post-date {
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.post-content {
+    margin-bottom: 15px;
+}
+
+
+
+@media (max-width: 768px) {
+    section.post-section {
+        padding: 50px 10%;
+    }
+
+    .post-container {
+        background: none;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .post-container .post-img {
+        width: 100%;
+    }
+}
