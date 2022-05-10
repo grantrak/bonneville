@@ -190,7 +190,7 @@ section.where-we-are {
 
 
 
-/*Join Us*/
+/*Join Us/Use Us*/
 
 .join-us {
     width: 100%;
@@ -315,6 +315,10 @@ section.where-we-are {
     
 }
 
+
+
+
+
 @media (max-width: 992px) {
 
     section.who-we-are, section.where-we-are, section.what-we-do, section.join-us {
@@ -371,6 +375,8 @@ section.where-we-are {
         padding: 20px;
     }
 }
+
+
 
 
 
@@ -441,6 +447,10 @@ section.where-we-are {
         margin-bottom: 0;
     }
 }
+
+
+
+
 
 @media (max-width: 450px) {
     .join-our-team-content, .use-our-services-content {

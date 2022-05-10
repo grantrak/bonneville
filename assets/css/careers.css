@@ -1,5 +1,6 @@
 /*==========================WORK WITH US============================*/
 
+/*Hero*/
 .hero-careers {
     width: 100%;
     height: 350px;
@@ -13,6 +14,8 @@
 }
 
 
+
+/*Belong*/
 section.belong {
     width: 100%;
     position: relative;
@@ -57,6 +60,11 @@ section.belong {
     background: var(--gradient-md);
     z-index: 1;
 }
+
+
+
+
+/*Grow your career/Make an impact*/
 
 .goals {
     width: 100%;
@@ -134,6 +142,11 @@ section.belong {
     margin-top: 20px;
 }
 
+
+
+
+/*Volunteer Opportunities*/
+
 section.volunteer {
     width: 100%;
     position: relative;
@@ -179,6 +192,10 @@ section.volunteer {
     box-shadow: var(--shadow);
     z-index: 3;
 }
+
+
+
+/*Testimonials*/
 
 section.testimonials {
     width: 100%;
@@ -254,6 +271,12 @@ section.testimonials {
     color: var(--blue-md);
     cursor: pointer;
 }
+
+
+
+
+
+/*Media Queries*/
 
 
 @media (max-width: 1200px){
@@ -397,7 +420,7 @@ section.testimonials {
 
 @media (max-width: 768px){
 
-    section.belong, section.goals, section.volunteer, section.testimonials {
+    section.belong, section.goals, section.volunteer, section.testimonials, section.our-values {
         padding: 50px 10%;
     }
 
@@ -456,6 +479,8 @@ section.testimonials {
         top: 165px;
     }
 }
+
+
 
 @media (max-width: 450px) {
     .grow-content, .impact-content {
