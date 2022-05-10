@@ -317,6 +317,10 @@ section.where-we-are {
 
 @media (max-width: 992px) {
 
+    section.who-we-are, section.where-we-are, section.what-we-do, section.join-us {
+        padding: 75px 100px;
+    }
+
     .who-we-are-content {
         grid-column: col-start / span 6;
         padding: 20px 0;
@@ -418,6 +422,7 @@ section.where-we-are {
         margin: 0 auto;
         position: relative;
         top: 50%;
+        padding: 50px;
     }
     
     .use-our-services-img {
@@ -432,6 +437,7 @@ section.where-we-are {
         margin: 0 auto;
         position: relative;
         top: 50%;
+        padding: 50px;
         margin-bottom: 0;
     }
 }

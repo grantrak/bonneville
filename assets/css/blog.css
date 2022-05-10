@@ -124,7 +124,7 @@ section.blog {
     max-width: 1140px;
     background: var(--white);
     box-shadow: var(--shadow);
-    padding: 50px;
+    padding: 50px 100px;
 }
 
 .post-container .post-img {
@@ -150,7 +150,7 @@ section.blog {
 
 @media (max-width: 768px) {
     section.post-section {
-        padding: 50px 10%;
+        padding: 50px 5%;
     }
 
     .post-container {

@@ -89,9 +89,6 @@ section.leaders {
 
 
 
-@media (max-width: 1200px) {
-    
-}
 
 @media (max-width: 992px){
 
@@ -99,12 +96,17 @@ section.leaders {
         height: 200px;
         padding: 20px;
     }
+
+    section.leaders {
+        padding-top: 20px;
+    }
 }
 
 
 @media (max-width: 768px) {
     section.leaders {
         padding: 50px 5%;
+        padding-top: 0;
     }
 
     .person-img {
@@ -247,7 +249,7 @@ section.leader {
 @media (max-width: 992px) {
 
     section.leader {
-        padding: 50px 5%;
+        padding: 50px 100px;
     }
 
     .leader-top {
@@ -267,6 +269,19 @@ section.leader {
 
     .leader-container {
         padding: 50px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .leader-container {
+        background: none;
+        box-shadow: none;
+        padding: 20px 0;
+        position: relative;
+    }
+
+    section.leader {
+        padding: 50px 5%;
     }
 }
 

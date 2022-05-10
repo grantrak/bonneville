@@ -197,6 +197,10 @@ section.contact {
 }
 
 .form-container form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-right: 16px solid transparent;
     text-indent: 0px;
 }
 
@@ -249,12 +253,31 @@ section.contact {
 }
 
 .form-container form select {
-    border-right: 16px solid transparent
+    border-right: 16px solid transparent;
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    .connect-img {
+        aspect-ratio: 4 / 5;
+        background-position: 80%;
+    }
+    .connect-content {
+        grid-column: col-start / span 7;
+        padding: 100px 0;
+    }
 }
 
 
 
 @media (max-width: 1100px) {
+    
+    .connect-content {
+        padding: 60px 0;
+    }
     .service {
         width: 320px;
         padding: 50px;
@@ -277,6 +300,10 @@ section.contact {
     .hero-clients {
         height: 200px;
         padding: 20px;
+    }
+
+    section.connect, section.aim, section.services {
+        padding: 75px 100px;
     }
 
     .connect .white-bg, .connect-img {
