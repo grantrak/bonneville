@@ -1,0 +1,343 @@
+/*===================WHAT WE DO======================*/
+
+
+.hero-clients {
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/hero-clients.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+section.connect {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background: var(--gradient-md);
+}
+
+.connect .white-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    background: var(--white);
+    z-index: 1;
+}
+
+.connect-content {
+    grid-column: col-start / span 7;
+    padding: 50px 0;
+}
+
+.connect-content p {
+    margin: 20px 0 30px 0;
+}
+
+
+
+.connect-img {
+    grid-column: col-start 9 / span 4;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    background-image: url('../img/connect.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: var(--shadow);
+    z-index: 3;
+}
+
+
+
+
+
+
+section.aim {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background: var(--white);
+}
+
+.aim .dark-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 28%;
+    background: var(--gradient-drk);
+    z-index: 1;
+}
+
+.aim-content {
+    grid-column: col-start 6 / span 7;
+    padding: 50px 0;
+}
+
+.aim-content p {
+    margin: 20px 0 30px 0;
+}
+
+
+
+.aim-img {
+    grid-column: col-start / span 4;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    background-image: url('../img/aim.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: var(--shadow);
+    z-index: 3;
+}
+
+
+
+section.services {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background: var(--gray-lt);
+}
+
+.services h2 {
+    margin-bottom: 75px;
+}
+
+.services-container {
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.service img {
+    width: 230px;
+    position: relative;
+    top: -125px;
+    box-shadow: var(--shadow);
+}
+
+.service h3 {
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+
+.service {
+    background: var(--white);
+    width: 380px;
+    box-shadow: var(--shadow);
+    padding: 75px;
+    text-align: center;
+    margin: 75px 25px;
+}
+
+
+
+section.contact {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background: url('../img/contact-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-container {
+    background: var(--gradient-md);
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container form select {
+    text-indent: 0px;
+}
+
+.form-container form input, .form-container form select,  .form-container form textarea {
+    width: 90%;
+    padding: 13px;
+    margin: 10px;
+    border-radius: 0;
+    border: none;
+    background: rgba(255, 255, 255, 0.4);
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: var(--gray-md);
+}
+
+
+
+.form-container form input, .form-container form textarea {
+    text-indent: 4px;
+}
+
+.form-container form input::placeholder, .form-container form textarea::placeholder {
+    color: var(--gray-md);
+    text-indent: 4px;
+}
+
+.form-container form input:focus, .form-container form select:focus, .form-container form textarea:focus, .form-container form input:focus::placeholder, .form-container form textarea:focus::placeholder {
+    color: var(--blue-blk);
+    background: var(--white);
+    outline: none;
+}
+
+.form-container form input:focus, .form-container form select:focus, .form-container form textarea:focus {
+    box-shadow: var(--shadow);
+}
+
+#submit {
+    background: var(--gradient-drk);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    padding: 14px;
+}
+
+#submit:focus {
+    color: var(--white);
+}
+
+.form-container form select {
+    border-right: 16px solid transparent
+}
+
+
+
+@media (max-width: 1100px) {
+    .service {
+        width: 320px;
+        padding: 50px;
+    }
+
+    .service img {
+        width: 200px;
+        position: relative;
+        top: -125px;
+        box-shadow: var(--shadow);
+    }
+}
+
+
+
+
+
+@media (max-width: 992px){
+
+    .hero-clients {
+        height: 200px;
+        padding: 20px;
+    }
+
+    .connect .white-bg, .connect-img {
+        display: none;
+    }
+
+    .aim .dark-bg {
+        display: none;
+    }
+
+    .aim-img {
+        display: none;
+    }
+
+    .connect-content, .aim-content {
+        grid-column: col-start / span 12;
+        padding: 0;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    section.connect, section.aim, section.services {
+        padding: 50px 10%;
+    }
+
+    section.contact {
+        padding: 0;
+        background: none;
+    }
+
+    .form-container {
+        width: 100%;
+        padding: 50px 20px;
+    }
+}
+
+@media (max-width: 450px) {
+
+
+    .services h2 {
+        margin-bottom: 50px;
+    }
+
+    .service {
+        width: 100%;
+        padding: 30px;
+        margin: 50px 0;
+    }
+
+    .service img {
+        width: 150px;
+        position: relative;
+        top: -75px;
+        box-shadow: var(--shadow);
+    }
+
+    .service h3 {
+        margin-top: -50px;
+        margin-bottom: 20px;
+    }
+}
