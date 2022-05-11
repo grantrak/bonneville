@@ -325,6 +325,10 @@ section.where-we-are {
         padding: 75px 100px;
     }
 
+    .video video {
+        z-index: 2;
+    }
+
     .who-we-are-content {
         grid-column: col-start / span 6;
         padding: 20px 0;
